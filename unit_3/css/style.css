@@ -13,13 +13,12 @@ img {
 }
 
 header {
-	background-image: url("../images/product_manager.jpg");
 	padding: 20px;
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	height: 400px;
+	height: 300px;
 }
 
 .header_words {
@@ -31,7 +30,7 @@ body {
 	font-size: 20px;
 	color: #222222;
 	line-height: 1.3;
-	background-color: #FB5B05;
+	background-color: #665;
 }
 
 #section_about {
@@ -54,18 +53,15 @@ nav a {
 }
 
 img {
-	width: 25%;
-}
-
-main {
-	padding: 20px;
+	width: 30%;
 }
 
 ul, ol {
 	padding-left: 20px;
 }
+
 footer {
-	background-color: #E88C0C;
+	background-color: #222;
 	padding: 20px;
 	text-align: center;
 }
@@ -86,11 +82,10 @@ p {
 }
 
 #me {
-	width: 100px;
+	width: 150px;
 	height: auto;
+	padding-bottom: 20px;
 }
-
-
 
 
 
