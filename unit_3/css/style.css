@@ -3,26 +3,77 @@
 	margin: 0;
 }
 
-#hex {
-	background-color: #000000;
-}
-
 img {	
 	margin: 0 auto;
 	display: block;
 }
 
 header {
-	padding: 20px;
+	padding: 40px;
 	text-align: center;
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	height: 300px;
+	height: auto;
 }
 
-.header_words {
-	color: #000;
+div {
+	width: 200px;
+	height: 200px;
+	display: inline;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.section {
+	float: left;
+	width: 50%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+.section.blue {
+	background: blue;
+	float: left;
+	width: 50%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+#header_picture {
+	width: 35%;
+	height: auto;
+}
+
+#header_words {
+	color: #F7FAFF;
+	padding-top: 20px;
+}
+
+h3 {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+h4 {
+	padding-bottom: 20px;
 }
 
 body {
@@ -39,11 +90,23 @@ body {
 
 h1 {
 	font-style: italic;
-	color: #04619B;
+	color: #F7FAFF;
+}
+
+h1, h2 {
+	font-family: Arial, sans-serif;
+}
+
+h2, h3, {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #F7FAFF;
+	font-weight: normal;
+	padding-bottom: 25px;
 }
 
 a {
-	color: #2700FF;
+	color: #B7BCC2;
 	text-decoration: none;
 }
 nav a {
@@ -60,23 +123,6 @@ ul, ol {
 	padding-left: 20px;
 }
 
-footer {
-	background-color: #222;
-	padding: 20px;
-	text-align: center;
-}
-
-h2, h3, h4, h5 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	color: #04619B;
-	font-weight: normal;
-}
-
-h1, h2 {
-	font-family: Arial, sans-serif;
-}
-
 p {
 	font-family: "Courier New", monochrome;
 }
@@ -86,6 +132,23 @@ p {
 	height: auto;
 	padding-bottom: 20px;
 }
+
+footer {
+	background-color: #222;
+	padding: 20px;
+	text-align: center;
+	color: #ffa;
+}
+
+.content {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 
 
 
