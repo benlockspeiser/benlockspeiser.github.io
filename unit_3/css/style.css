@@ -14,6 +14,11 @@ header {
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: auto;
+	background-color: #75909B;
+}
+
+#header {
+	color: #ffa;
 }
 
 div {
@@ -78,7 +83,7 @@ h4 {
 
 body {
 	font-family: helvetica, arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px; /*1em=18px*/
 	color: #222222;
 	line-height: 1.3;
 	background-color: #665;
@@ -106,8 +111,8 @@ h2, h3, {
 }
 
 a {
-	color: #B7BCC2;
-	text-decoration: none;
+	color: #1F2478;
+	text-decoration: underline;
 }
 nav a {
 	color: #2700FF;
@@ -117,6 +122,22 @@ nav a {
 
 img {
 	width: 30%;
+}
+
+.column_1 {
+	background-image:url('../images/collaboration_1.jpeg');
+}
+
+.column_2 {
+	background-image:url('../images/collaboration_2.jpeg');
+}
+
+.column_3 {
+	background-image:url('../images/collaboration_3.jpeg');
+}
+
+.column_4 {
+	background-image:url('../images/collaboration_4.jpeg')
 }
 
 ul, ol {
@@ -134,7 +155,7 @@ p {
 }
 
 footer {
-	background-color: #222;
+	background-color: #75909B;
 	padding: 20px;
 	text-align: center;
 	color: #ffa;
