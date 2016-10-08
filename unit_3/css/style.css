@@ -136,23 +136,23 @@ img {
 
 .column_1 {
 	background-image: url('../images/collaboration_1.jpeg');
-	font-family: 'Walter Turncoat', cursive;
+/*	font-family: 'Walter Turncoat', cursive;*/
 	/*I can't get the headers to change the font in any of the boxes*/
 }
 
 .column_2 {
 	background-image: url('../images/collaboration_2.jpeg');
-	font-family: 'Walter Turncoat', cursive;
+/*	font-family: 'Walter Turncoat', cursive;*/
 }
 
 .column_3 {
 	background-image: url('../images/collaboration_3.jpeg');
-	font-family: 'Walter Turncoat', cursive;
+/*	font-family: 'Walter Turncoat', cursive;*/
 }
 
 .column_4 {
 	background-image: url('../images/collaboration_4.jpeg');
-	font-family: 'Walter Turncoat', cursive;
+/*	font-family: 'Walter Turncoat', cursive;*/
 }
 
 ul, ol {
