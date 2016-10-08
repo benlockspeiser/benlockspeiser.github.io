@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -75,6 +78,7 @@ h3 {
 	padding-top: 20px;
 	padding-bottom: 25px;
 	text-align: center;
+	font-size: 1.5
 }
 
 h4 {
@@ -94,12 +98,13 @@ body {
 }
 
 h1 {
-	font-style: italic;
+	font-family: 'Walter Turncoat', cursive;
 	color: #F7FAFF;
+	font-size: 2.5em;
 }
 
-h1, h2 {
-	font-family: Arial, sans-serif;
+h2 {
+	font-family: 'Walter Turncoat', cursive;
 }
 
 h2, h3, {
@@ -108,6 +113,11 @@ h2, h3, {
 	color: #F7FAFF;
 	font-weight: normal;
 	padding-bottom: 25px;
+}
+
+h4, h5 {
+	font-weight: lighter;
+	font-size: 1em;
 }
 
 a {
@@ -125,19 +135,24 @@ img {
 }
 
 .column_1 {
-	background-image:url('../images/collaboration_1.jpeg');
+	background-image: url('../images/collaboration_1.jpeg');
+	font-family: 'Walter Turncoat', cursive;
+	/*I can't get the headers to change the font in any of the boxes*/
 }
 
 .column_2 {
-	background-image:url('../images/collaboration_2.jpeg');
+	background-image: url('../images/collaboration_2.jpeg');
+	font-family: 'Walter Turncoat', cursive;
 }
 
 .column_3 {
-	background-image:url('../images/collaboration_3.jpeg');
+	background-image: url('../images/collaboration_3.jpeg');
+	font-family: 'Walter Turncoat', cursive;
 }
 
 .column_4 {
-	background-image:url('../images/collaboration_4.jpeg')
+	background-image: url('../images/collaboration_4.jpeg');
+	font-family: 'Walter Turncoat', cursive;
 }
 
 ul, ol {
